@@ -1,0 +1,11 @@
+This is an example of an LTL translation to structured NL:
+X ! e & X f means "In the next moment of the system execution , e should not hold and , in the next moment of the system execution , f has to hold."
+
+Please show how you would reason to get to a translation of what this LTL formula means:
+[INPUT_FORMULA]
+
+I am more interested in understanding how to read it rather than reaching the correct answer. Do so in a concise way, following this structure:
+- Write down original LTL formula
+- Break the subformula into a parsing tree (breakdown).
+- Rebuild meaning from the bottom of the tree up
+- Refine the natural language phrasing for clarity. 

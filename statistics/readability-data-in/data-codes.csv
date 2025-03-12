@@ -1,0 +1,172 @@
+ORG_Order,ID,Expression,Expr_Num,Source
+1,LLM-OG-1,X a => X c,1,LLM_Org
+2,LLM-OG-2,X b => !X d,2,LLM_Org
+3,LLM-OG-3,a & X b,3,LLM_Org
+4,LLM-OG-4,b | !X a,4,LLM_Org
+5,LLM-OG-5,X a & b,5,LLM_Org
+6,LLM-OG-6,X !b & d,6,LLM_Org
+7,LLM-OG-7,a U c,7,LLM_Org
+8,LLM-OG-8,b U !d,8,LLM_Org
+9,LLM-OG-9,(c & b) U a,9,LLM_Org
+10,LLM-OG-10,(d | !b) U !a,10,LLM_Org
+11,LLM-OG-11,a U (b & c),11,LLM_Org
+12,LLM-OG-12,b U (a | d),12,LLM_Org
+13,LLM-OG-13,(c U a) & (b U a),13,LLM_Org
+14,LLM-OG-14,(d U c) | (a U !c),14,LLM_Org
+15,LLM-OG-15,G a,15,LLM_Org
+16,LLM-OG-16,F !b,16,LLM_Org
+17,LLM-OG-17,!G c,17,LLM_Org
+18,LLM-OG-18,!F (a & b),18,LLM_Org
+19,LLM-OG-19,F (!y & w),19,LLM_Org
+20,LLM-OG-20,G t | F w,20,LLM_Org
+21,LLM-OG-21,X (t & y),21,LLM_Org
+22,LLM-OG-22,!X !(w | x),22,LLM_Org
+23,LLM-OG-23,t => w,23,LLM_Org
+24,LLM-OG-24,t => (x & y),24,LLM_Org
+25,LLM-OG-25,!X t,25,LLM_Org
+26,LLM-OG-26,X t => X y,26,LLM_Org
+27,LLM-OG-27,X (t | w),27,LLM_Org
+28,LLM-OG-28,X (y => x & w),28,LLM_Org
+29,LLM-OG-29,F x | F y,29,LLM_Org
+30,LLM-OG-30,X a & !G b,30,LLM_Org
+31,LLM-OG-31,d & X (c U a),31,LLM_Org
+32,LLM-OG-32,(b | !a) & X (d U c),32,LLM_Org
+33,LLM-OG-33,(b U c) & (d U !b),33,LLM_Org
+34,LLM-OG-34,G (!f | !i),34,LLM_Org
+35,LLM-OG-35,F (f => j),35,LLM_Org
+36,LLM-OG-36,G (j => !f),36,LLM_Org
+37,LLM-OG-37,G (!i) | F (f U i),37,LLM_Org
+38,LLM-OG-38,(a U b) & (c U d),38,LLM_Org
+39,LLM-OG-39,b U (d & a),39,LLM_Org
+40,LLM-OG-40,F (o | u),40,LLM_Org
+41,LLM-OG-41,G (n => s),41,LLM_Org
+42,LLM-OG-42,(y & !d) | (y => d),42,LLM_Org
+43,LLM-OG-43,X (f & i),43,LLM_Org
+44,LLM-OG-44,X(!g | !j),44,LLM_Org
+45,LLM-OG-45,X (!i) | X (j),45,LLM_Org
+46,LLM-OG-46,F d | G !n,46,LLM_Org
+47,LLM-OG-47,a U (c & d),47,LLM_Org
+48,LLM-OG-48,b & X (a U c),48,LLM_Org
+49,LLM-OG-49,X !(t | w),49,LLM_Org
+50,LLM-OG-50,F (o U u),50,LLM_Org
+51,LLM-New-1,X a => X c,1,LLM_New
+52,LLM-New-2,X b => !X d,2,LLM_New
+53,LLM-New-3,a & X b,3,LLM_New
+54,LLM-New-4,b | !X a,4,LLM_New
+55,LLM-New-5,X a & b,5,LLM_New
+56,LLM-New-6,X !b & d,6,LLM_New
+57,LLM-New-7,a U c,7,LLM_New
+58,LLM-New-8,b U !d,8,LLM_New
+59,LLM-New-9,(c & b) U a,9,LLM_New
+60,LLM-New-10,(d | !b) U !a,10,LLM_New
+61,LLM-New-11,a U (b & c),11,LLM_New
+62,LLM-New-12,b U (a | d),12,LLM_New
+63,LLM-New-13,(c U a) & (b U a),13,LLM_New
+64,LLM-New-14,(d U c) | (a U !c),14,LLM_New
+65,LLM-New-15,G a,15,LLM_New
+66,LLM-New-16,F !b,16,LLM_New
+67,LLM-New-17,!G c,17,LLM_New
+68,LLM-New-18,!F (a & b),18,LLM_New
+69,LLM-New-19,F (!y & w),19,LLM_New
+70,LLM-New-20,G t | F w,20,LLM_New
+71,LLM-New-21,X (t & y),21,LLM_New
+72,LLM-New-22,!X !(w | x),22,LLM_New
+73,LLM-New-23,t => w,23,LLM_New
+74,LLM-New-24,t => (x & y),24,LLM_New
+75,LLM-New-25,!X t,25,LLM_New
+76,LLM-New-26,X t => X y,26,LLM_New
+77,LLM-New-27,X (t | w),27,LLM_New
+78,LLM-New-28,X (y => x & w),28,LLM_New
+79,LLM-New-29,F x | F y,29,LLM_New
+80,LLM-New-30,X a & !G b,30,LLM_New
+81,LLM-New-31,d & X (c U a),31,LLM_New
+82,LLM-New-32,(b | !a) & X (d U c),32,LLM_New
+83,LLM-New-33,(b U c) & (d U !b),33,LLM_New
+84,LLM-New-34,G (!f | !i),34,LLM_New
+85,LLM-New-35,F (f => j),35,LLM_New
+86,LLM-New-36,G (j => !f),36,LLM_New
+87,LLM-New-37,G (!i) | F (f U i),37,LLM_New
+88,LLM-New-38,(a U b) & (c U d),38,LLM_New
+89,LLM-New-39,b U (d & a),39,LLM_New
+90,LLM-New-40,F (o | u),40,LLM_New
+91,LLM-New-41,G (n => s),41,LLM_New
+92,LLM-New-42,(y & !d) | (y => d),42,LLM_New
+93,LLM-New-43,X (f & i),43,LLM_New
+94,LLM-New-44,X(!g | !j),44,LLM_New
+95,LLM-New-45,X (!i) | X (j),45,LLM_New
+96,LLM-New-46,F d | G !n,46,LLM_New
+97,LLM-New-47,a U (c & d),47,LLM_New
+98,LLM-New-48,b & X (a U c),48,LLM_New
+99,LLM-New-49,X !(t | w),49,LLM_New
+100,LLM-New-50,F (o U u),50,LLM_New
+101,Gold-1,X a => X c,1,Gold
+102,Gold-2,X b => !X d,2,Gold
+103,Gold-3,a & X b,3,Gold
+104,Gold-4,b | !X a,4,Gold
+105,Gold-5,X a & b,5,Gold
+106,Gold-6,X !b & d,6,Gold
+107,Gold-7,a U c,7,Gold
+108,Gold-8,b U !d,8,Gold
+109,Gold-9,(c & b) U a,9,Gold
+110,Gold-10,(d | !b) U !a,10,Gold
+111,Gold-11,a U (b & c),11,Gold
+112,Gold-12,b U (a | d),12,Gold
+113,Gold-13,(c U a) & (b U a),13,Gold
+114,Gold-14,(d U c) | (a U !c),14,Gold
+115,Gold-15,G a,15,Gold
+116,Gold-16,F !b,16,Gold
+117,Gold-17,!G c,17,Gold
+118,Gold-18,!F (a & b),18,Gold
+119,Gold-19,F (!y & w),19,Gold
+120,Gold-20,G t | F w,20,Gold
+121,Gold-21,X (t & y),21,Gold
+122,Gold-22,!X !(w | x),22,Gold
+123,Gold-23,t => w,23,Gold
+124,Gold-24,t => (x & y),24,Gold
+125,Gold-25,!X t,25,Gold
+126,Gold-26,X t => X y,26,Gold
+127,Gold-27,X (t | w),27,Gold
+128,Gold-28,X (y => x & w),28,Gold
+129,Gold-29,F x | F y,29,Gold
+130,Gold-30,X a & !G b,30,Gold
+131,Gold-31,d & X (c U a),31,Gold
+132,Gold-32,(b | !a) & X (d U c),32,Gold
+133,Gold-33,(b U c) & (d U !b),33,Gold
+134,Gold-34,G (!f | !i),34,Gold
+135,Gold-35,F (f => j),35,Gold
+136,Gold-36,G (j => !f),36,Gold
+137,Gold-37,G (!i) | F (f U i),37,Gold
+138,Gold-38,(a U b) & (c U d),38,Gold
+139,Gold-39,b U (d & a),39,Gold
+140,Gold-40,F (o | u),40,Gold
+141,Gold-41,G (n => s),41,Gold
+142,Gold-42,(y & !d) | (y => d),42,Gold
+143,Gold-43,X (f & i),43,Gold
+144,Gold-44,X(!g | !j),44,Gold
+145,Gold-45,X (!i) | X (j),45,Gold
+146,Gold-46,F d | G !n,46,Gold
+147,Gold-47,a U (c & d),47,Gold
+148,Gold-48,b & X (a U c),48,Gold
+149,Gold-49,X !(t | w),49,Gold
+150,Gold-50,F (o U u),50,Gold
+166,Student-1,G(c_X G r),51,Student
+167,Student-2,G(c_X G r),51,Student
+168,Student-3,G(c_X G r),51,Student
+169,Student-4,G(c_X G r),51,Student
+170,Student-5,G(c_X G r),51,Student
+171,Student-6,F(!p & !u),52,Student
+172,Student-7,F(!p & !u),52,Student
+173,Student-8,F(!p & !u),52,Student
+174,Student-9,F(!p & !u),52,Student
+175,Student-10,F(!p & !u),52,Student
+176,Student-11,G(!q) | G(!m),53,Student
+177,Student-12,G(!q) | G(!m),53,Student
+178,Student-13,G(!q) | G(!m),53,Student
+179,Student-14,G(!q) | G(!m),53,Student
+180,Student-15,G(!a_F z),54,Student
+181,Student-16,G(!a_F z),54,Student
+182,Student-17,G(!a_F z),54,Student
+183,Student-18,G(!a_F z),54,Student
+184,Student-19,G(a_F(vUw)),55,Student
+185,Student-20,G(a_F(vUw)),55,Student
+186,Student-21,G(a_F(vUw)),55,Student

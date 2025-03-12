@@ -1,0 +1,55 @@
+Expr_Num,Expression
+1,X a => X c
+2,X b => !X d
+3,a & X b
+4,b | !X a
+5,X a & b
+6,X !b & d
+7,a U c
+8,b U !d
+9,(c & b) U a
+10,(d | !b) U !a
+11,a U (b & c)
+12,b U (a | d)
+13,(c U a) & (b U a)
+14,(d U c) | (a U !c)
+15,G a
+16,F !b
+17,!G c
+18,!F (a & b)
+19,F (!y & w)
+20,G t | F w
+21,X (t & y)
+22,!X !(w | x)
+23,t => w
+24,t => (x & y)
+25,!X t
+26,X t => X y
+27,X (t | w)
+28,X (y => x & w)
+29,F x | F y
+30,X a & !G b
+31,d & X (c U a)
+32,(b | !a) & X (d U c)
+33,(b U c) & (d U !b)
+34,G (!f | !i)
+35,F (f => j)
+36,G (j => !f)
+37,G (!i) | F (f U i)
+38,(a U b) & (c U d)
+39,b U (d & a)
+40,F (o | u)
+41,G (n => s)
+42,(y & !d) | (y => d)
+43,X (f & i)
+44,X(!g | !j)
+45,X (!i) | X (j)
+46,F d | G !n
+47,a U (c & d)
+48,b & X (a U c)
+49,X !(t | w)
+50,F (o U u)
+51,G(c => X G r)
+52,F(!p & !u)
+53,G(!q) | G(!m)
+54,G(!a => F z)
